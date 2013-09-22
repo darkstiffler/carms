@@ -1,5 +1,10 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+@import url(http://fonts.googleapis.com/css?family=Gudea);
+@import url(http://fonts.googleapis.com/css?family=Bubbler+One);
+@import url(http://fonts.googleapis.com/css?family=Bilbo+Swash+Caps);
+
 body {
-	background-color: rgb(220,220,220);
+	background-color: rgb(240,240,240);
 }
 nav li a:hover {
 	text-decoration: none;
@@ -9,6 +14,7 @@ nav {
 	background-color: rgba(0,0,0,.9);
 	box-shadow: 6px 6px 9px rgb(170,170,170);
 	font-size: 24px;
+	font-family: "Raleway";
 }
 nav li {
 	display: inline-block;
@@ -19,6 +25,10 @@ nav li {
 	margin: 15px;
 	text-shadow: 5px 5px 10px grey;
 }
+#welcome h2 {
+	font-size: 90px;
+	font-family: "Bilbo Swash Caps";
+}
 #container {
 	margin: 0 auto;
 	width: 95%;
@@ -26,6 +36,7 @@ nav li {
 #slider img {
 	height: 400px;
 	display: block;
+	border: 1px solid black;
 	margin: 0 auto;
 	width: auto;
 	border-radius: 12px;
@@ -35,4 +46,6 @@ footer {
 	position: fixed;
 	bottom: -13px;
 	width: 100%;
+	font-family: "Raleway";
+
 }
