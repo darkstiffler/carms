@@ -1,0 +1,19 @@
+body {
+	background-color: rgb(220,220,220);
+}
+nav li a:hover {
+	text-decoration: none;
+}
+nav {
+	width: 100%;
+	background-color: rgba(0,0,0,.9);
+	box-shadow: 6px 6px 9px rgb(170,170,170);
+	font-size: 24px;
+}
+nav li {
+	display: inline-block;
+	margin: 15px;
+}
+#welcome {
+	margin: 0 auto;
+}
