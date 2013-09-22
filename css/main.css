@@ -36,10 +36,10 @@ nav li {
 #slider img {
 	height: 400px;
 	display: block;
-	border: 1px solid black;
+	border: 3px solid #999;
 	margin: 0 auto;
 	width: auto;
-	border-radius: 12px;
+	border-radius: 30px;
 	box-shadow: 20px 20px 30px #999999;
 }
 footer {
