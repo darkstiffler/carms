@@ -31,3 +31,8 @@ nav li {
 	border-radius: 12px;
 	box-shadow: 20px 20px 30px #999999;
 }
+footer {
+	position: fixed;
+	bottom: -13px;
+	width: 100%;
+}
